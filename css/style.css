@@ -77,7 +77,7 @@ a {
   color: #000000;
 
   background-color: #f8f5f2;
-  background-image: url("../img/Layer-fone.jpg");
+  background-image: url("../img/pattern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -98,4 +98,71 @@ a {
 .gallery-images {
   background-color: #cccccc;
   border: 7px solid #ffffff;
+}
+
+.record-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.record-item input:focus {
+  border-color: #663d15;
+}
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #212121;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-content a:hover,
+.footer-content a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-developer {
+  text-align: center;
+}
+
+.footer-developer .button:hover,
+.footer-developer .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.modal {
+  color: #000000;
+
+  background-color: #f8f3f0;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
 }
