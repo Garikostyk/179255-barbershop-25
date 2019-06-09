@@ -19,6 +19,24 @@ a {
   text-decoration: none;
 }
 
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
 .main-nav {
   font-size: 16px;
   line-height: 20px;
@@ -67,4 +85,17 @@ a {
 .index-columns h2 {
   font: 30px;
   line-height: 42px;
+}
+
+.news-list {
+  list-style: none;
+}
+
+.news-list time {
+  text-transform: none;
+}
+
+.gallery-images {
+  background-color: #cccccc;
+  border: 7px solid #ffffff;
 }
