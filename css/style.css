@@ -18,3 +18,53 @@ body {
 a {
   text-decoration: none;
 }
+
+.main-nav {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+.navigation-list,
+.login-list {
+  list-style: none;
+}
+
+.navigation-list a,
+.login-list a {
+  color: #ffffff;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus,
+.login-list a:hover,
+.login-list a:focus {
+  background-color: #242424;
+}
+
+.advantages-list {
+  list-style: none;
+}
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-list h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("../img/Layer-fone.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font: 30px;
+  line-height: 42px;
+}
