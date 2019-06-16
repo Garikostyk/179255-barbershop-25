@@ -357,3 +357,37 @@ a {
 .restore:focus {
   text-decoration: none;
 }
+
+/* сеточные стили */
+
+.main-header {
+  margin-bottom: 75px;
+
+}
+
+.main-header-logo {
+  order: 1;
+  width: 368px;
+  height: 153px;
+
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.login-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
